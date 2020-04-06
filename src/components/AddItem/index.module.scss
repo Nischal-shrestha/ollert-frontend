@@ -1,0 +1,32 @@
+.container {
+  margin: 0 8px 8px 8px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 0.875em;
+  color: #5e6c84;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(#091e42, 0.08);
+  }
+
+  svg {
+    margin-right: 4px;
+    * {
+      fill: #5e6c84;
+    }
+  }
+}
+
+.container.list {
+  background: rgba(white, 0.2);
+  color: white;
+  width: 280px;
+  height: 32px;
+  svg * {
+    fill: white;
+  }
+}

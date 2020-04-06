@@ -2,5 +2,10 @@ import React from 'react'
 import s from './index.module.scss'
 
 export default function Card () {
-  return <h1 className={s.card}>Card</h1>
+  return (
+    <div className={s.container}>
+      <div className={s.cardLabel}>Mobile</div>
+      <div className={s.cardTitle}>Card</div>
+    </div>
+  )
 }

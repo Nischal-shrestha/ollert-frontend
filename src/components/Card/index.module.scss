@@ -1,1 +1,24 @@
+.container {
+  padding: 8px 8px 4px 8px;
+  background: white;
+  color: var(--text-color);
+  border-radius: 2px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+}
 
+.cardTitle {
+  font-size: 0.875em;
+  margin-bottom: 4px;
+}
+
+.cardLabel {
+  background: #61bd4f;
+  font-size: 0.75em;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  width: max-content;
+  padding: 2px 8px;
+}

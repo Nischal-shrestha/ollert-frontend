@@ -1,0 +1,36 @@
+.container {
+  width: 280px;
+  background: #eee;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 4px;
+  height: max-content;
+
+  &:nth-child(1) {
+    margin-left: 8px;
+  }
+}
+
+.headerContainer {
+  padding: 8px;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  padding-left: 8px;
+  font-family: sans-serif;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 0.875em;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.cards {
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+}

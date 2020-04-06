@@ -1,0 +1,63 @@
+.headerContainer {
+  padding: 4px 8px;
+  background: rgba(black, 0.1);
+  display: flex;
+  justify-content: space-between;
+
+  .headerLeftContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+
+  .header {
+    line-height: 32px;
+  }
+}
+
+.menuButton {
+  border: none;
+  background: rgba(white, 0.2);
+  height: 32px;
+  display: flex;
+  align-items: center;
+  font-size: 0.875em;
+  font-weight: 700;
+  color: white;
+  border-radius: 4px;
+  margin-right: 4px;
+  padding: 0;
+
+  .text {
+    padding-right: 8px;
+  }
+}
+
+.icon {
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+.boardHeaderContainer {
+  padding: 8px;
+
+  .boardHeader {
+    line-height: 32px;
+    padding-left: 16px;
+    font-size: 1.125em;
+    font-weight: 700;
+    color: white;
+  }
+}
+
+.lists {
+  display: flex;
+}
