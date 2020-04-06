@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './index.module.scss'
-import AddCard from 'components/AddCard'
+import AddItem from 'components/AddItem'
 
 export default function List ({ children }) {
   return (
@@ -11,7 +11,7 @@ export default function List ({ children }) {
         </div>
         <div className={s.cards}>{children}</div>
       </div>
-      <AddCard />
+      <AddItem text='Add another card' />
     </div>
   )
 }
