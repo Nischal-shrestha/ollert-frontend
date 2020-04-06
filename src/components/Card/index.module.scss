@@ -1,24 +1,87 @@
-.container {
-  padding: 8px 8px 4px 8px;
+.card {
+  padding: 6px 8px 2px;
   background: white;
   color: var(--text-color);
   border-radius: 2px;
   margin-bottom: 8px;
   box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
 }
 
 .cardTitle {
-  font-size: 0.875em;
+  font-size: inherit;
   margin-bottom: 4px;
 }
 
 .cardLabel {
   background: #61bd4f;
-  font-size: 0.75em;
+  font-size: 0.75rem;
   font-weight: 700;
   color: white;
   margin-bottom: 4px;
   border-radius: 4px;
   width: max-content;
   padding: 2px 8px;
+}
+
+.composer {
+  padding-bottom: 8px;
+}
+
+.text {
+  width: 100%;
+  height: 54px;
+  margin-bottom: 4px;
+  border: none;
+  outline: none;
+  padding-bottom: 8px;
+
+  &::placeholder {
+    color: #606e85;
+  }
+}
+
+.controlBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .btn {
+    background: #5aac44;
+    padding: 6px 12px;
+    border: none;
+    font-size: 0.875rem;
+    color: white;
+    border-radius: 4px;
+    line-height: 20px;
+    cursor: pointer;
+
+    &:hover {
+      background: lighten(#5aac44, 5);
+    }
+  }
+
+  .closeBtn {
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    svg {
+      height: 20px;
+      width: 20px;
+      transform: rotate(45deg);
+      * {
+        fill: #6b778c;
+      }
+    }
+
+    &:hover {
+      svg * {
+        fill: var(--text-color);
+      }
+    }
+  }
 }
